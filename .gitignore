@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Para o projeto
+src/data
+src/images
+.gitignore

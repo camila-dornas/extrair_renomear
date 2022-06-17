@@ -2,9 +2,10 @@
   "name": "comissao-formatura-img-downloader",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/vinigofr/comissao-formatura-img-downloader#readme",
   "dependencies": {
-    "axios": "^0.26.1"
+    "axios": "^0.26.1",
+    "node": "^17.7.2",
+    "ts-node": "^10.8.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.23"

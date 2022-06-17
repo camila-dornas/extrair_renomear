@@ -104,5 +104,8 @@ dist
 .tern-port
 
 # Para o projeto
-src/images
+src/memes/images-meme
+src/adulto/images-crianca
+src/crinaca/images-adulto
 .gitignoregit
+package-lock.json
